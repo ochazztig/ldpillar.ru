@@ -1,0 +1,58 @@
+html{
+        scroll-behavior:smooth;
+    }
+    body{
+        font-family: sans-serif;
+        line-height: 1.8;
+    }
+    p {
+    font-size: 16px;
+    }
+
+    #heading{
+      font-family:Standley;
+      font-size:60px;
+    }
+
+    .margin {
+    margin-bottom: 45px;
+    }
+
+    .bg-1 { 
+       background-color:#66FF99; /* Green */
+        color: #ffffff; /*white*/
+
+    }
+    
+    .bg-2{
+        background-color:#808080 ;
+        color:black ;
+    }
+    .bg-3{
+        background-color:lightblue;
+        color:black ;
+    }
+
+    .bg-4{
+        background-color: black;
+        color:white;
+    }
+
+    .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .navbar {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 18px;
+      letter-spacing: 5px;
+    }
+    .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+      transition: .5s;
+  }
